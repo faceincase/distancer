@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "distancer",
+	"version": "${version}",
+	"name": "Distancer",
+	"description": "Estimates how far away a locator bar player is by triangulating bearings taken from several positions.",
+	"authors": ["FaceInCase"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["dev.faceincase.distancer.DistancerClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
